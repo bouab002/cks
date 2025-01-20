@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: priviligeescalation
+  name: priviligeescalation
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: priviligeescalation
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: priviligeescalation
+    spec:
+      securityContext:
+        runAsNonRoot: false
+        runAsUser: 5000
+      containers:
+      - image: ttl.sh/privilegesscalation@sha256:9e5f40c42fb4bf15c1e0849eee27729f78e6c1d2bad095ac07409649abd9ca44
+        name: privilige-escalation
+        securityContext:
+          privileged: false
+          allowPrivilegeEscalation: false

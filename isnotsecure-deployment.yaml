@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: isnotsecure
+  name: isnotsecure
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: isnotsecure
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: isnotsecure
+    spec:
+      automountServiceAccountToken: false
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+      - image: ttl.sh/debian-cks-lab@sha256:0bff8e172ccee8077178ffc8e57ec37fff2b2385aeb51d6739d1e3a2a4b1daa1
+        name: debian-cks-lab
+        resources:
+          limits: 
+            memory: 100Mi
+            cpu: 100m
+          requests:
+            memory: 100Mi
+            cpu: 100m
+        securityContext:
+          privileged: false
+          allowPrivilegeEscalation: false
+          privileged: false
+          readOnlyRootFilesystem: true
+        
