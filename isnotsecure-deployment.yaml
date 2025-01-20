@@ -25,7 +25,7 @@ spec:
         seccompProfile:
           type: RuntimeDefault
       containers:
-      - image: ttl.sh/debian-cks-lab@sha256:0bff8e172ccee8077178ffc8e57ec37fff2b2385aeb51d6739d1e3a2a4b1daa1
+      - image: ttl.sh/debian-cks-lab@sha256:5146d0aecc11a62df6fd7acf77423b24e9506a11939f2a97bdc9d37704944cb5
         name: debian-cks-lab
         resources:
           limits: 

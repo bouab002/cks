@@ -1,0 +1,1423 @@
+sSPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-c6ad1ef8-a9de-4daf-8f00-40daf4d72490
+DocumentNamespace: https://spdx.org/spdxdocs/k8s-releng-bom-9b2502cc-c408-472b-8311-e132f596cfe2
+Creator: Organization: Kubernetes Release Engineering
+Creator: Tool: bom-v0.6.0
+LicenseListVersion: 3.21
+Created: 2025-01-20T16:16:20Z
+
+
+##### Package: sha256:0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491
+
+PackageName: sha256:0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491
+SPDXID: SPDXRef-Package-sha256-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491
+PackageChecksum: SHA256: 0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491
+PackageDownloadLocation: NONE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:oci/debian@sha256%3A0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491?arch=amd64&mediaType=application%2Fvnd.docker.distribution.manifest.v2%2Bjson&os=linux&repository_url=index.docker.io%2Flibrary
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: sha256:b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65
+
+PackageName: sha256:b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65
+SPDXID: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65
+PackageChecksum: SHA1: 2f6970419486aa3d34718ae71ef29b24e17e15f0
+PackageChecksum: SHA256: b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65
+PackageChecksum: SHA512: c4189eeb2a3cd99aa3f834b73254262e42691c3dacc95260e1ece4a0e8d78ed1e0ad18cc01b1ace655d37e534189c8919f36500fb2fa549296b69a39df4b3861
+PackageDownloadLocation: NONE
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageFileName: b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65.tar.gz
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+##### Package: apt
+
+PackageName: apt
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5e33f8f3-a933-4247-afcd-2c65e58f0bbe
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/a/apt/apt_2.5.4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: APT Development Team (deity@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.5.4
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/apt@2.5.4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5e33f8f3-a933-4247-afcd-2c65e58f0bbe
+##### Package: base-files
+
+PackageName: base-files
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b410ca00-1bd9-41dd-b9ca-e278c9602789
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/b/base-files/base-files_12.3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Santiago Vila (sanvila@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 12.3
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/base-files@12.3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b410ca00-1bd9-41dd-b9ca-e278c9602789
+##### Package: base-passwd
+
+PackageName: base-passwd
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-4f900361-0e75-4a5b-baa0-6764a0edfa1b
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/b/base-passwd/base-passwd_3.6.1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Colin Watson (cjwatson@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.6.1
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/base-passwd@3.6.1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-4f900361-0e75-4a5b-baa0-6764a0edfa1b
+##### Package: bash
+
+PackageName: bash
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-16b99395-45da-4905-827f-7dc60b494cd4
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/b/bash/bash_5.2.15-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Matthias Klose (doko@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 5.2.15-2
+PackageHomePage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/bash@5.2.15-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-16b99395-45da-4905-827f-7dc60b494cd4
+##### Package: bsdutils
+
+PackageName: bsdutils
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-7aa8a5fc-27f3-427f-901e-b7f401848dc2
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/b/bsdutils/bsdutils_1:2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/bsdutils@1%3A2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-7aa8a5fc-27f3-427f-901e-b7f401848dc2
+##### Package: coreutils
+
+PackageName: coreutils
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-df6e2e06-b03f-4a87-9c9e-9fb89966a4b6
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/c/coreutils/coreutils_9.1-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Michael Stone (mstone@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 9.1-1
+PackageHomePage: http://gnu.org/software/coreutils
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/coreutils@9.1-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-df6e2e06-b03f-4a87-9c9e-9fb89966a4b6
+##### Package: dash
+
+PackageName: dash
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-93518d6d-56d8-4fcc-bc13-1eeaa9f21ff7
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/d/dash/dash_0.5.11+git20210903+057cd650a4ed-9_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Andrej Shadura (andrewsh@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 0.5.11+git20210903+057cd650a4ed-9
+PackageHomePage: http://gondor.apana.org.au/~herbert/dash/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/dash@0.5.11%2Bgit20210903%2B057cd650a4ed-9?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-93518d6d-56d8-4fcc-bc13-1eeaa9f21ff7
+##### Package: debconf
+
+PackageName: debconf
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-6e5d576e-05a4-4ad3-a737-cf80d181c0b8
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/d/debconf/debconf_1.5.81_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debconf Developers (debconf-devel@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.5.81
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/debconf@1.5.81?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-6e5d576e-05a4-4ad3-a737-cf80d181c0b8
+##### Package: debian-archive-keyring
+
+PackageName: debian-archive-keyring
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-0a5533b4-5882-4ce2-9e89-7f07554cf2ae
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2021.1.1_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian Release Team (packages@release.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2021.1.1
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/debian-archive-keyring@2021.1.1?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-0a5533b4-5882-4ce2-9e89-7f07554cf2ae
+##### Package: debianutils
+
+PackageName: debianutils
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3795b0b3-2609-4006-a2c4-4bded64a67bd
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/d/debianutils/debianutils_5.7-0.4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Clint Adams (clint@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 5.7-0.4
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/debianutils@5.7-0.4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3795b0b3-2609-4006-a2c4-4bded64a67bd
+##### Package: diffutils
+
+PackageName: diffutils
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5c066548-81f7-4ebf-be26-a3d9f2f911d2
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/d/diffutils/diffutils_1:3.8-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Santiago Vila (sanvila@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:3.8-3
+PackageHomePage: https://www.gnu.org/software/diffutils/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/diffutils@1%3A3.8-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5c066548-81f7-4ebf-be26-a3d9f2f911d2
+##### Package: dpkg
+
+PackageName: dpkg
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-87114518-eba5-426d-abe8-9d102a22b360
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/d/dpkg/dpkg_1.21.13_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Dpkg Developers (debian-dpkg@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.21.13
+PackageHomePage: https://wiki.debian.org/Teams/Dpkg
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/dpkg@1.21.13?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-87114518-eba5-426d-abe8-9d102a22b360
+##### Package: e2fsprogs
+
+PackageName: e2fsprogs
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-ba5b9090-fb27-48f0-8ee1-164dff98e3be
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/e/e2fsprogs/e2fsprogs_1.46.6~rc1-1+b1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Theodore Y. Ts'o (tytso@mit.edu)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.46.6~rc1-1+b1
+PackageHomePage: http://e2fsprogs.sourceforge.net
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/e2fsprogs@1.46.6~rc1-1%2Bb1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-ba5b9090-fb27-48f0-8ee1-164dff98e3be
+##### Package: findutils
+
+PackageName: findutils
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8af764eb-e2df-4208-8797-7b1560380e1e
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/f/findutils/findutils_4.9.0-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Andreas Metzler (ametzler@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 4.9.0-3
+PackageHomePage: https://savannah.gnu.org/projects/findutils/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/findutils@4.9.0-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8af764eb-e2df-4208-8797-7b1560380e1e
+##### Package: gcc-12-base
+
+PackageName: gcc-12-base
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-50695f7b-34ca-4bb2-8273-e525a212d276
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/g/gcc-12-base/gcc-12-base_12.2.0-13_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GCC Maintainers (debian-gcc@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 12.2.0-13
+PackageHomePage: http://gcc.gnu.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/gcc-12-base@12.2.0-13?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-50695f7b-34ca-4bb2-8273-e525a212d276
+##### Package: gpgv
+
+PackageName: gpgv
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-2a6c0781-6396-4576-b452-b0e92893a0d4
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/g/gpgv/gpgv_2.2.40-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GnuPG Maintainers (pkg-gnupg-maint@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.2.40-1
+PackageHomePage: https://www.gnupg.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/gpgv@2.2.40-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-2a6c0781-6396-4576-b452-b0e92893a0d4
+##### Package: grep
+
+PackageName: grep
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-ac5e1721-c0eb-469c-98db-268c1bbe42b4
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/g/grep/grep_3.8-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Anibal Monsalve Salazar (anibal@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.8-3
+PackageHomePage: https://www.gnu.org/software/grep/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/grep@3.8-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-ac5e1721-c0eb-469c-98db-268c1bbe42b4
+##### Package: gzip
+
+PackageName: gzip
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-7402c8f8-5ced-41af-8fa7-f23a2c4510da
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/g/gzip/gzip_1.12-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Milan Kupcevic (milan@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.12-1
+PackageHomePage: https://www.gnu.org/software/gzip/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/gzip@1.12-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-7402c8f8-5ced-41af-8fa7-f23a2c4510da
+##### Package: hostname
+
+PackageName: hostname
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-6421b717-ce80-43b5-be3c-0781163aabf0
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/h/hostname/hostname_3.23+nmu1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Michael Meskes (meskes@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.23+nmu1
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/hostname@3.23%2Bnmu1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-6421b717-ce80-43b5-be3c-0781163aabf0
+##### Package: init-system-helpers
+
+PackageName: init-system-helpers
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-aec5eeea-ff41-4c51-919b-9b0e045b6c40
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/i/init-system-helpers/init-system-helpers_1.65.2_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian systemd Maintainers (pkg-systemd-maintainers@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.65.2
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/init-system-helpers@1.65.2?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-aec5eeea-ff41-4c51-919b-9b0e045b6c40
+##### Package: libacl1
+
+PackageName: libacl1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-c4efb15a-5fc9-4aa8-9295-51b68c54693d
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/liba/libacl1/libacl1_2.3.1-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Guillem Jover (guillem@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.3.1-2
+PackageHomePage: https://savannah.nongnu.org/projects/acl/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libacl1@2.3.1-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-c4efb15a-5fc9-4aa8-9295-51b68c54693d
+##### Package: libapt-pkg6.0
+
+PackageName: libapt-pkg6.0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8cb8687b-e511-4d53-ad7e-5c1d6b3e8215
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/liba/libapt-pkg6.0/libapt-pkg6.0_2.5.4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: APT Development Team (deity@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.5.4
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libapt-pkg6.0@2.5.4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8cb8687b-e511-4d53-ad7e-5c1d6b3e8215
+##### Package: libattr1
+
+PackageName: libattr1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-024e13ad-089e-4896-a285-83d10396560d
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/liba/libattr1/libattr1_1:2.5.1-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Guillem Jover (guillem@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:2.5.1-3
+PackageHomePage: https://savannah.nongnu.org/projects/attr/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libattr1@1%3A2.5.1-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-024e13ad-089e-4896-a285-83d10396560d
+##### Package: libaudit-common
+
+PackageName: libaudit-common
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-01c685fc-14af-4adb-a085-a837bb6f1cdb
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/liba/libaudit-common/libaudit-common_1:3.0.7-1.1_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Laurent Bigonville (bigon@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:3.0.7-1.1
+PackageHomePage: https://people.redhat.com/sgrubb/audit/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libaudit-common@1%3A3.0.7-1.1?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-01c685fc-14af-4adb-a085-a837bb6f1cdb
+##### Package: libaudit1
+
+PackageName: libaudit1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-e3f889b9-3b22-4e84-84df-ed8365ea6f12
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/liba/libaudit1/libaudit1_1:3.0.7-1.1+b2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Laurent Bigonville (bigon@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:3.0.7-1.1+b2
+PackageHomePage: https://people.redhat.com/sgrubb/audit/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libaudit1@1%3A3.0.7-1.1%2Bb2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-e3f889b9-3b22-4e84-84df-ed8365ea6f12
+##### Package: libblkid1
+
+PackageName: libblkid1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-893fa0da-bb1d-4915-a71c-51507d5b26a9
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libb/libblkid1/libblkid1_2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libblkid1@2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-893fa0da-bb1d-4915-a71c-51507d5b26a9
+##### Package: libbz2-1.0
+
+PackageName: libbz2-1.0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-535c5652-e2bb-4317-bf03-f33116b29e49
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libb/libbz2-1.0/libbz2-1.0_1.0.8-5+b1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Anibal Monsalve Salazar (anibal@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.0.8-5+b1
+PackageHomePage: https://sourceware.org/bzip2/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libbz2-1.0@1.0.8-5%2Bb1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-535c5652-e2bb-4317-bf03-f33116b29e49
+##### Package: libc-bin
+
+PackageName: libc-bin
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-23324984-fed2-4f1a-b407-ef55e7a14b93
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libc/libc-bin/libc-bin_2.36-7_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: GNU Libc Maintainers (debian-glibc@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.36-7
+PackageHomePage: https://www.gnu.org/software/libc/libc.html
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libc-bin@2.36-7?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-23324984-fed2-4f1a-b407-ef55e7a14b93
+##### Package: libc6
+
+PackageName: libc6
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-59dae54a-97fb-4759-bd9c-a84c5d300acf
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libc/libc6/libc6_2.36-7_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: GNU Libc Maintainers (debian-glibc@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.36-7
+PackageHomePage: https://www.gnu.org/software/libc/libc.html
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libc6@2.36-7?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-59dae54a-97fb-4759-bd9c-a84c5d300acf
+##### Package: libcap-ng0
+
+PackageName: libcap-ng0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8f3897a2-9611-4ebc-80a6-1c387aa8ee4f
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libc/libcap-ng0/libcap-ng0_0.8.3-1+b2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Håvard F. Aasen (havard.f.aasen@pfft.no)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 0.8.3-1+b2
+PackageHomePage: https://people.redhat.com/sgrubb/libcap-ng
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libcap-ng0@0.8.3-1%2Bb2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8f3897a2-9611-4ebc-80a6-1c387aa8ee4f
+##### Package: libcap2
+
+PackageName: libcap2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b6b23901-1711-4720-984e-1646925ec5aa
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libc/libcap2/libcap2_1:2.66-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Christian Kastner (ckk@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:2.66-3
+PackageHomePage: https://sites.google.com/site/fullycapable/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libcap2@1%3A2.66-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b6b23901-1711-4720-984e-1646925ec5aa
+##### Package: libcom-err2
+
+PackageName: libcom-err2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-70622e98-24bd-4129-8149-04e1db893b8e
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libc/libcom-err2/libcom-err2_1.46.6~rc1-1+b1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Theodore Y. Ts'o (tytso@mit.edu)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.46.6~rc1-1+b1
+PackageHomePage: http://e2fsprogs.sourceforge.net
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libcom-err2@1.46.6~rc1-1%2Bb1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-70622e98-24bd-4129-8149-04e1db893b8e
+##### Package: libcrypt1
+
+PackageName: libcrypt1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-a9ed6aa8-555a-4775-af0f-55bb2e94555f
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libc/libcrypt1/libcrypt1_1:4.4.33-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Marco d'Itri (md@linux.it)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:4.4.33-1
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libcrypt1@1%3A4.4.33-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-a9ed6aa8-555a-4775-af0f-55bb2e94555f
+##### Package: libdb5.3
+
+PackageName: libdb5.3
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-1768f84c-2f38-471d-a5f9-098edf784670
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libd/libdb5.3/libdb5.3_5.3.28+dfsg1-0.10_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian Berkeley DB Team (team+bdb@tracker.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 5.3.28+dfsg1-0.10
+PackageHomePage: http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libdb5.3@5.3.28%2Bdfsg1-0.10?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-1768f84c-2f38-471d-a5f9-098edf784670
+##### Package: libdebconfclient0
+
+PackageName: libdebconfclient0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-70d461b9-c163-4378-aa51-ad13b5c2d899
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libd/libdebconfclient0/libdebconfclient0_0.266_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian Install System Team (debian-boot@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 0.266
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libdebconfclient0@0.266?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-70d461b9-c163-4378-aa51-ad13b5c2d899
+##### Package: libext2fs2
+
+PackageName: libext2fs2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-bfba497a-1b8e-40b3-b6e5-9137b844b958
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libe/libext2fs2/libext2fs2_1.46.6~rc1-1+b1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Theodore Y. Ts'o (tytso@mit.edu)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.46.6~rc1-1+b1
+PackageHomePage: http://e2fsprogs.sourceforge.net
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libext2fs2@1.46.6~rc1-1%2Bb1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-bfba497a-1b8e-40b3-b6e5-9137b844b958
+##### Package: libffi8
+
+PackageName: libffi8
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-0d15bf63-474a-4351-82b2-77ca5c02b0c8
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libf/libffi8/libffi8_3.4.4-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GCC Maintainers (debian-gcc@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.4.4-1
+PackageHomePage: https://sourceware.org/libffi/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libffi8@3.4.4-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-0d15bf63-474a-4351-82b2-77ca5c02b0c8
+##### Package: libgcc-s1
+
+PackageName: libgcc-s1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-eb76d6c3-14b7-4a7b-82b5-978c6b75522b
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libg/libgcc-s1/libgcc-s1_12.2.0-13_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GCC Maintainers (debian-gcc@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 12.2.0-13
+PackageHomePage: http://gcc.gnu.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgcc-s1@12.2.0-13?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-eb76d6c3-14b7-4a7b-82b5-978c6b75522b
+##### Package: libgcrypt20
+
+PackageName: libgcrypt20
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-ec2e4042-6aea-436b-a243-05667946a5ea
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libg/libgcrypt20/libgcrypt20_1.10.1-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GnuTLS Maintainers (pkg-gnutls-maint@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.10.1-3
+PackageHomePage: https://directory.fsf.org/project/libgcrypt/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgcrypt20@1.10.1-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-ec2e4042-6aea-436b-a243-05667946a5ea
+##### Package: libgmp10
+
+PackageName: libgmp10
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-6533654b-1e09-4624-97f9-109ee1cce015
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libg/libgmp10/libgmp10_2:6.2.1+dfsg1-1.1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian Science Team (debian-science-maintainers@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2:6.2.1+dfsg1-1.1
+PackageHomePage: https://gmplib.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgmp10@2%3A6.2.1%2Bdfsg1-1.1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-6533654b-1e09-4624-97f9-109ee1cce015
+##### Package: libgnutls30
+
+PackageName: libgnutls30
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-853a6aa3-022b-46da-b229-5c8e6ac9ad44
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libg/libgnutls30/libgnutls30_3.7.8-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GnuTLS Maintainers (pkg-gnutls-maint@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.7.8-4
+PackageHomePage: https://www.gnutls.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgnutls30@3.7.8-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-853a6aa3-022b-46da-b229-5c8e6ac9ad44
+##### Package: libgpg-error0
+
+PackageName: libgpg-error0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-94722e9b-d7b9-40ec-89ae-b57061960bc7
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libg/libgpg-error0/libgpg-error0_1.46-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GnuPG Maintainers (pkg-gnupg-maint@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.46-1
+PackageHomePage: https://www.gnupg.org/related_software/libgpg-error/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgpg-error0@1.46-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-94722e9b-d7b9-40ec-89ae-b57061960bc7
+##### Package: libhogweed6
+
+PackageName: libhogweed6
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d6ece1f1-e982-4a3e-a18e-b526f5197ec8
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libh/libhogweed6/libhogweed6_3.8.1-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Magnus Holmgren (holmgren@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.8.1-2
+PackageHomePage: http://www.lysator.liu.se/~nisse/nettle/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libhogweed6@3.8.1-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d6ece1f1-e982-4a3e-a18e-b526f5197ec8
+##### Package: libidn2-0
+
+PackageName: libidn2-0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9a43e4ff-dca0-4f47-ace6-bfd69e8fa50e
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libi/libidn2-0/libidn2-0_2.3.3-1+b1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian Libidn team (help-libidn@gnu.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.3.3-1+b1
+PackageHomePage: https://www.gnu.org/software/libidn/#libidn2
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libidn2-0@2.3.3-1%2Bb1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9a43e4ff-dca0-4f47-ace6-bfd69e8fa50e
+##### Package: liblz4-1
+
+PackageName: liblz4-1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-2f9912e2-96ea-407c-8a0e-cae802f09931
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libl/liblz4-1/liblz4-1_1.9.4-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Nobuhiro Iwamatsu (iwamatsu@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.9.4-1
+PackageHomePage: https://github.com/lz4/lz4
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/liblz4-1@1.9.4-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-2f9912e2-96ea-407c-8a0e-cae802f09931
+##### Package: liblzma5
+
+PackageName: liblzma5
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-84a1a026-544a-437c-ae87-6b0aae13e6a1
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libl/liblzma5/liblzma5_5.4.0-0.1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Jonathan Nieder (jrnieder@gmail.com)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 5.4.0-0.1
+PackageHomePage: https://tukaani.org/xz/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/liblzma5@5.4.0-0.1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-84a1a026-544a-437c-ae87-6b0aae13e6a1
+##### Package: libmd0
+
+PackageName: libmd0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-68943abb-0096-4a53-a609-f7a2ce3c5645
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libm/libmd0/libmd0_1.0.4-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Guillem Jover (guillem@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.0.4-2
+PackageHomePage: https://www.hadrons.org/software/libmd/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libmd0@1.0.4-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-68943abb-0096-4a53-a609-f7a2ce3c5645
+##### Package: libmount1
+
+PackageName: libmount1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3f9dfc6d-3dda-4d66-9d07-0e1378e1160d
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libm/libmount1/libmount1_2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libmount1@2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3f9dfc6d-3dda-4d66-9d07-0e1378e1160d
+##### Package: libnettle8
+
+PackageName: libnettle8
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-27b5fe69-6a35-462c-9c25-d99da7927fdc
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libn/libnettle8/libnettle8_3.8.1-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Magnus Holmgren (holmgren@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.8.1-2
+PackageHomePage: http://www.lysator.liu.se/~nisse/nettle/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libnettle8@3.8.1-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-27b5fe69-6a35-462c-9c25-d99da7927fdc
+##### Package: libp11-kit0
+
+PackageName: libp11-kit0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-f9a12fcd-1f2d-43e1-9e8e-a8e488c594dc
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libp/libp11-kit0/libp11-kit0_0.24.1-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GnuTLS Maintainers (pkg-gnutls-maint@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 0.24.1-2
+PackageHomePage: https://p11-glue.github.io/p11-glue/p11-kit.html
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libp11-kit0@0.24.1-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-f9a12fcd-1f2d-43e1-9e8e-a8e488c594dc
+##### Package: libpam-modules
+
+PackageName: libpam-modules
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8dca29f2-a6c2-4415-ab94-1d248cf72475
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libp/libpam-modules/libpam-modules_1.5.2-5_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Steve Langasek (vorlon@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.5.2-5
+PackageHomePage: http://www.linux-pam.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam-modules@1.5.2-5?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8dca29f2-a6c2-4415-ab94-1d248cf72475
+##### Package: libpam-modules-bin
+
+PackageName: libpam-modules-bin
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-20bedd61-9068-4fcf-8ec0-302e287eed47
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libp/libpam-modules-bin/libpam-modules-bin_1.5.2-5_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Steve Langasek (vorlon@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.5.2-5
+PackageHomePage: http://www.linux-pam.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam-modules-bin@1.5.2-5?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-20bedd61-9068-4fcf-8ec0-302e287eed47
+##### Package: libpam-runtime
+
+PackageName: libpam-runtime
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-072d79f0-3527-4905-ae96-81052e4307f3
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libp/libpam-runtime/libpam-runtime_1.5.2-5_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Steve Langasek (vorlon@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.5.2-5
+PackageHomePage: http://www.linux-pam.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam-runtime@1.5.2-5?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-072d79f0-3527-4905-ae96-81052e4307f3
+##### Package: libpam0g
+
+PackageName: libpam0g
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-63fe8ef1-2875-421a-8674-2c49e98a71b5
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libp/libpam0g/libpam0g_1.5.2-5_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Steve Langasek (vorlon@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.5.2-5
+PackageHomePage: http://www.linux-pam.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam0g@1.5.2-5?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-63fe8ef1-2875-421a-8674-2c49e98a71b5
+##### Package: libpcre2-8-0
+
+PackageName: libpcre2-8-0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-468964bc-b8e6-485f-b4d7-5a791019580d
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libp/libpcre2-8-0/libpcre2-8-0_10.40-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Matthew Vernon (matthew@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 10.40-3
+PackageHomePage: https://pcre.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpcre2-8-0@10.40-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-468964bc-b8e6-485f-b4d7-5a791019580d
+##### Package: libseccomp2
+
+PackageName: libseccomp2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5d45a465-724b-48e3-a2f1-77f45dfbab9e
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libseccomp2/libseccomp2_2.5.4-1+b2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Kees Cook (kees@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.5.4-1+b2
+PackageHomePage: https://github.com/seccomp/libseccomp
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libseccomp2@2.5.4-1%2Bb2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5d45a465-724b-48e3-a2f1-77f45dfbab9e
+##### Package: libselinux1
+
+PackageName: libselinux1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-aa118cae-227e-4d4c-8f95-403d6de146e1
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libselinux1/libselinux1_3.4-1+b4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian SELinux maintainers (selinux-devel@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.4-1+b4
+PackageHomePage: https://selinuxproject.org
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libselinux1@3.4-1%2Bb4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-aa118cae-227e-4d4c-8f95-403d6de146e1
+##### Package: libsemanage-common
+
+PackageName: libsemanage-common
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5b98638e-06a9-4802-b6b6-b68772e5e184
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libsemanage-common/libsemanage-common_3.4-1_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian SELinux maintainers (selinux-devel@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.4-1
+PackageHomePage: https://selinuxproject.org
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsemanage-common@3.4-1?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5b98638e-06a9-4802-b6b6-b68772e5e184
+##### Package: libsemanage2
+
+PackageName: libsemanage2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-35e799c6-90db-4412-938e-b0febcf91d56
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libsemanage2/libsemanage2_3.4-1+b4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian SELinux maintainers (selinux-devel@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.4-1+b4
+PackageHomePage: https://selinuxproject.org
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsemanage2@3.4-1%2Bb4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-35e799c6-90db-4412-938e-b0febcf91d56
+##### Package: libsepol2
+
+PackageName: libsepol2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d13a3c54-dfbd-4302-a1a6-3911023e0eb0
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libsepol2/libsepol2_3.4-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian SELinux maintainers (selinux-devel@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.4-2
+PackageHomePage: https://selinuxproject.org
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsepol2@3.4-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d13a3c54-dfbd-4302-a1a6-3911023e0eb0
+##### Package: libsmartcols1
+
+PackageName: libsmartcols1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-489a15e2-6191-43f0-a502-bbe517335c91
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libsmartcols1/libsmartcols1_2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsmartcols1@2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-489a15e2-6191-43f0-a502-bbe517335c91
+##### Package: libss2
+
+PackageName: libss2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d9cb0107-140e-4e97-8e40-fa11ba7a6fb4
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libss2/libss2_1.46.6~rc1-1+b1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Theodore Y. Ts'o (tytso@mit.edu)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.46.6~rc1-1+b1
+PackageHomePage: http://e2fsprogs.sourceforge.net
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libss2@1.46.6~rc1-1%2Bb1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d9cb0107-140e-4e97-8e40-fa11ba7a6fb4
+##### Package: libstdc++6
+
+PackageName: libstdc++6
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-7e08effb-6e3e-4709-89ac-4647589dc113
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libstdc++6/libstdc++6_12.2.0-13_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GCC Maintainers (debian-gcc@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 12.2.0-13
+PackageHomePage: http://gcc.gnu.org/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libstdc%2B%2B6@12.2.0-13?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-7e08effb-6e3e-4709-89ac-4647589dc113
+##### Package: libsystemd0
+
+PackageName: libsystemd0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-923bea61-ad97-4ee4-ba11-85071185c89f
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libs/libsystemd0/libsystemd0_252.4-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian systemd Maintainers (pkg-systemd-maintainers@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 252.4-1
+PackageHomePage: https://www.freedesktop.org/wiki/Software/systemd
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsystemd0@252.4-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-923bea61-ad97-4ee4-ba11-85071185c89f
+##### Package: libtasn1-6
+
+PackageName: libtasn1-6
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-921446f1-ad58-4aab-b6d8-d8e8073ffe7d
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libt/libtasn1-6/libtasn1-6_4.19.0-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian GnuTLS Maintainers (pkg-gnutls-maint@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 4.19.0-2
+PackageHomePage: https://www.gnu.org/software/libtasn1/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libtasn1-6@4.19.0-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-921446f1-ad58-4aab-b6d8-d8e8073ffe7d
+##### Package: libtinfo6
+
+PackageName: libtinfo6
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-0deb1b35-3a5e-40a9-a264-9ea612c487b3
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libt/libtinfo6/libtinfo6_6.4-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Craig Small (csmall@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 6.4-1
+PackageHomePage: https://invisible-island.net/ncurses/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libtinfo6@6.4-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-0deb1b35-3a5e-40a9-a264-9ea612c487b3
+##### Package: libudev1
+
+PackageName: libudev1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-95ddb49c-baae-4e92-9188-b2f9214f6a42
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libu/libudev1/libudev1_252.4-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian systemd Maintainers (pkg-systemd-maintainers@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 252.4-1
+PackageHomePage: https://www.freedesktop.org/wiki/Software/systemd
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libudev1@252.4-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-95ddb49c-baae-4e92-9188-b2f9214f6a42
+##### Package: libunistring2
+
+PackageName: libunistring2
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-211b8fa5-fc20-4bbe-b49c-09c2ff9736e1
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libu/libunistring2/libunistring2_1.0-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Jörg Frings-Fürst (debian@jff.email)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.0-2
+PackageHomePage: https://www.gnu.org/software/libunistring/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libunistring2@1.0-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-211b8fa5-fc20-4bbe-b49c-09c2ff9736e1
+##### Package: libuuid1
+
+PackageName: libuuid1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-a69ee354-9895-40bc-ae01-ef0d22d51b34
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libu/libuuid1/libuuid1_2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libuuid1@2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-a69ee354-9895-40bc-ae01-ef0d22d51b34
+##### Package: libxxhash0
+
+PackageName: libxxhash0
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3f1797e7-a6a9-4c1d-9c91-3310ea00e2c3
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libx/libxxhash0/libxxhash0_0.8.1-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Josue Ortega (josue@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 0.8.1-1
+PackageHomePage: https://cyan4973.github.io/xxHash
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libxxhash0@0.8.1-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3f1797e7-a6a9-4c1d-9c91-3310ea00e2c3
+##### Package: libzstd1
+
+PackageName: libzstd1
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b96b6e50-c395-494f-9fc2-ef1d33217908
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/libz/libzstd1/libzstd1_1.5.2+dfsg2-3_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: RPM packaging team (team+pkg-rpm@tracker.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.5.2+dfsg2-3
+PackageHomePage: https://github.com/facebook/zstd
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libzstd1@1.5.2%2Bdfsg2-3?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b96b6e50-c395-494f-9fc2-ef1d33217908
+##### Package: login
+
+PackageName: login
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-491f6dce-05a4-4195-a962-67fce934fb39
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/l/login/login_1:4.13+dfsg1-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Shadow package maintainers (pkg-shadow-devel@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:4.13+dfsg1-1
+PackageHomePage: https://github.com/shadow-maint/shadow
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/login@1%3A4.13%2Bdfsg1-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-491f6dce-05a4-4195-a962-67fce934fb39
+##### Package: logsave
+
+PackageName: logsave
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-039ced65-25d7-4973-aa15-73679b2d0d63
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/l/logsave/logsave_1.46.6~rc1-1+b1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Theodore Y. Ts'o (tytso@mit.edu)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.46.6~rc1-1+b1
+PackageHomePage: http://e2fsprogs.sourceforge.net
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/logsave@1.46.6~rc1-1%2Bb1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-039ced65-25d7-4973-aa15-73679b2d0d63
+##### Package: mawk
+
+PackageName: mawk
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d3161633-d537-40f8-be72-1bb2886d8515
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20200120-3.1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Boyuan Yang (byang@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.3.4.20200120-3.1
+PackageHomePage: https://invisible-island.net/mawk/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/mawk@1.3.4.20200120-3.1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-d3161633-d537-40f8-be72-1bb2886d8515
+##### Package: mount
+
+PackageName: mount
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-f2686dbe-f5da-4d37-9af1-7b98bf137fe9
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/m/mount/mount_2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/mount@2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-f2686dbe-f5da-4d37-9af1-7b98bf137fe9
+##### Package: ncurses-base
+
+PackageName: ncurses-base
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-88f60214-b63d-4a9f-99f0-1ce3c5e4d953
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/n/ncurses-base/ncurses-base_6.4-1_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Craig Small (csmall@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 6.4-1
+PackageHomePage: https://invisible-island.net/ncurses/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/ncurses-base@6.4-1?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-88f60214-b63d-4a9f-99f0-1ce3c5e4d953
+##### Package: ncurses-bin
+
+PackageName: ncurses-bin
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3045944d-9057-4616-841a-82568f0256df
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/n/ncurses-bin/ncurses-bin_6.4-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Craig Small (csmall@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 6.4-1
+PackageHomePage: https://invisible-island.net/ncurses/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/ncurses-bin@6.4-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-3045944d-9057-4616-841a-82568f0256df
+##### Package: passwd
+
+PackageName: passwd
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5a8b4dbc-fac4-49bb-bbbd-05b5157cb3ac
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/p/passwd/passwd_1:4.13+dfsg1-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Shadow package maintainers (pkg-shadow-devel@lists.alioth.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:4.13+dfsg1-1
+PackageHomePage: https://github.com/shadow-maint/shadow
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/passwd@1%3A4.13%2Bdfsg1-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-5a8b4dbc-fac4-49bb-bbbd-05b5157cb3ac
+##### Package: perl-base
+
+PackageName: perl-base
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b0bb8b60-6ef2-4cf1-a4dc-07653c024f31
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/p/perl-base/perl-base_5.36.0-6_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Niko Tyni (ntyni@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 5.36.0-6
+PackageHomePage: http://dev.perl.org/perl5/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/perl-base@5.36.0-6?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-b0bb8b60-6ef2-4cf1-a4dc-07653c024f31
+##### Package: sed
+
+PackageName: sed
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9bdc8ace-ba82-438f-8d50-6f90edc2e443
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/s/sed/sed_4.8-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Clint Adams (clint@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 4.8-1
+PackageHomePage: https://www.gnu.org/software/sed/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/sed@4.8-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9bdc8ace-ba82-438f-8d50-6f90edc2e443
+##### Package: sysvinit-utils
+
+PackageName: sysvinit-utils
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9adeea8c-4bd7-4b49-96ee-ac30ff5a8511
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/s/sysvinit-utils/sysvinit-utils_3.06-2_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Debian sysvinit maintainers (debian-init-diversity@chiark.greenend.org.uk)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 3.06-2
+PackageHomePage: https://github.com/slicer69/sysvinit
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/sysvinit-utils@3.06-2?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9adeea8c-4bd7-4b49-96ee-ac30ff5a8511
+##### Package: tar
+
+PackageName: tar
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8def3aa7-63ea-4971-9f5c-bfb26a7eb532
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/t/tar/tar_1.34+dfsg-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Janos Lenart (ocsi@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1.34+dfsg-1
+PackageHomePage: https://www.gnu.org/software/tar/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/tar@1.34%2Bdfsg-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-8def3aa7-63ea-4971-9f5c-bfb26a7eb532
+##### Package: tzdata
+
+PackageName: tzdata
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-44b6552f-ddd8-4e2c-aef3-f6b0dde6d606
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/t/tzdata/tzdata_2022g-1_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: GNU Libc Maintainers (debian-glibc@lists.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2022g-1
+PackageHomePage: https://www.iana.org/time-zones
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/tzdata@2022g-1?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-44b6552f-ddd8-4e2c-aef3-f6b0dde6d606
+##### Package: usr-is-merged
+
+PackageName: usr-is-merged
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-a0030c39-330c-4f35-8094-30bd99c75889
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/u/usr-is-merged/usr-is-merged_35_all.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Marco d'Itri (md@linux.it)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 35
+PackageHomePage: https://wiki.debian.org/UsrMerge
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/usr-is-merged@35?arch=all
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-a0030c39-330c-4f35-8094-30bd99c75889
+##### Package: util-linux
+
+PackageName: util-linux
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9ee41b7a-d991-42f4-b072-66844ec00ac2
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/u/util-linux/util-linux_2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/util-linux@2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-9ee41b7a-d991-42f4-b072-66844ec00ac2
+##### Package: util-linux-extra
+
+PackageName: util-linux-extra
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-f764acd8-4935-487a-b1c9-e35bdaecd4b5
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/u/util-linux-extra/util-linux-extra_2.38.1-4_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: util-linux packagers (util-linux@packages.debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 2.38.1-4
+PackageHomePage: https://www.kernel.org/pub/linux/utils/util-linux/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/util-linux-extra@2.38.1-4?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-f764acd8-4935-487a-b1c9-e35bdaecd4b5
+##### Package: zlib1g
+
+PackageName: zlib1g
+SPDXID: SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-4c9b741b-cf68-4e8f-981e-8e356e24b61e
+PackageDownloadLocation: http://ftp.debian.org/debian/pool/main/z/zlib1g/zlib1g_1:1.2.13.dfsg-1_amd64.deb
+FilesAnalyzed: false
+PackageSupplier: Person: Mark Brown (broonie@debian.org)
+PackageLicenseConcluded: NOASSERTION
+PackageVersion: 1:1.2.13.dfsg-1
+PackageHomePage: http://zlib.net/
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/zlib1g@1%3A1.2.13.dfsg-1?arch=amd64
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+
+Relationship: SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65 CONTAINS SPDXRef-Package-SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65-4c9b741b-cf68-4e8f-981e-8e356e24b61e
+
+Relationship: SPDXRef-Package-sha256-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491 CONTAINS SPDXRef-Package-index.docker.io-library-debian-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491-sha256-b37cbf60a964400132f658413bf66b67e5e67da35b9c080be137ff3c37cc7f65
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-sha256-0aac521df91463e54189d82fe820b6d36b4a0992751c8339fbdd42e2bc1aa491
+

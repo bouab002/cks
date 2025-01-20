@@ -1,5 +1,5 @@
 # Use Debian as the base image
-FROM debian:latest
+FROM debian:stable-slim
 
 # Update package list and install necessary tools
 RUN apt-get update && apt-get install -y procps && apt-get clean
