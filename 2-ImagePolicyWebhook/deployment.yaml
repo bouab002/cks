@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: image-policy-webhook
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: image-policy-webhook
+  template:
+    metadata:
+      labels:
+        app: image-policy-webhook
+    spec:
+      containers:
+      - name: webhook
+        image: ttl.sh/image-webhook@sha256:38a7f14463297199e320da1fb07621d1a5b16b088403df2f3b6099765268ff26
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: tls-certs
+          mountPath: /app/certs
+          readOnly: true
+      volumes:
+      - name: tls-certs
+        secret:
+          secretName: webhook-tls-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: image-policy-webhook
+spec:
+  selector:
+    app: image-policy-webhook
+  ports:
+  - port: 443
+    targetPort: 8080
